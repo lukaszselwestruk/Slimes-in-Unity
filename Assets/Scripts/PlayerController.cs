@@ -10,35 +10,35 @@ using UnityEngine;
     {
         [SerializeField] private float moveSpeed = 1f;
 
-        private PlayerActions _playerActions;
-        private Vector2 _movement;
-        private Rigidbody2D _rb;
-        private Animator _myAnimator;
-        private SpriteRenderer _mySpriteRenderer;
+        private PlayerActions playerActions;
+        private Vector2 movement;
+        private Rigidbody2D rb;
+        private Animator myAnimator;
+        private SpriteRenderer mySpriteRenderer;
 
         private void Awake()
         {
-            _playerActions = new PlayerActions();
-            _rb = GetComponent<Rigidbody2D>();
-            _myAnimator = GetComponent<Animator>();
-            _mySpriteRenderer = GetComponent<SpriteRenderer>();
+            playerActions = new PlayerActions();
+            rb = GetComponent<Rigidbody2D>();
+            myAnimator = GetComponent<Animator>();
+            mySpriteRenderer = GetComponent<SpriteRenderer>();
         }
         // new input system requires this method.
         private void OnEnable()
         {
-            _playerActions.Enable();
+            playerActions.Enable();
         }
 
         private void PlayerInput()
         {
-            _movement = _playerActions.Movement.Move.ReadValue<Vector2>();
-            _myAnimator.SetFloat("moveX", _movement.x);
-            _myAnimator.SetFloat("moveY", _movement.y);
+            movement = playerActions.Movement.Move.ReadValue<Vector2>();
+            myAnimator.SetFloat("moveX", movement.x);
+            myAnimator.SetFloat("moveY", movement.y);
         }
 
         private void Move()
         {
-            _rb.MovePosition(_rb.position + _movement * (moveSpeed * Time.fixedDeltaTime));
+            rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
         }
         private void Update()
         {
@@ -55,8 +55,8 @@ using UnityEngine;
         {
             var mousePos = Input.mousePosition;
             var playerScreenPoint = Camera.main.WorldToScreenPoint(transform.position);
-            if (mousePos.x < playerScreenPoint.x) _mySpriteRenderer.flipX = true;
-            else _mySpriteRenderer.flipX = false;
+            if (mousePos.x < playerScreenPoint.x) mySpriteRenderer.flipX = true;
+            else mySpriteRenderer.flipX = false;
 
         }
     }
