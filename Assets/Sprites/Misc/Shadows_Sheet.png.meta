@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 10b16cb6ff74d734d92f8cdcdb424f7f
+guid: 0645bfc61cc70484fa7e0fbf79d831c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: Shadows_Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 48
-        height: 48
+        x: 3
+        y: 4
+        width: 10
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d15883a24e1b946878588d194bad18
-      internalID: -1438641391
+      spriteID: cd7d011c3002e2940a4e26ccd7db6917
+      internalID: 2115894938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: Shadows_Sheet_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 48
-        height: 48
+        x: 17
+        y: 3
+        width: 14
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5465331311547de43bd211dc7c95e60f
-      internalID: 1122109248
+      spriteID: f1c4aae5f87407149b6353e29cc8efb1
+      internalID: -1906242280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: Shadows_Sheet_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 48
-        height: 48
+        x: 32
+        y: 2
+        width: 16
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,71 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09ba4a1f93bd3554fbac955c3e759c8a
-      internalID: 481451649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8373c1f62842e44582b4096edd9127d
-      internalID: -63618493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25e50542c8e5f064cab4255c7f52ad47
-      internalID: -1544716755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9d81ff498dff76408459fd103106c84
-      internalID: -1337927977
+      spriteID: 992d489bd042d444cba08e59d6decf7f
+      internalID: -1493477783
       vertices: []
       indices: 
       edges: []
@@ -241,12 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_0: -1438641391
-      idle_1: 1122109248
-      idle_2: 481451649
-      idle_3: -63618493
-      idle_4: -1544716755
-      idle_5: -1337927977
+      Shadows_Sheet_0: 2115894938
+      Shadows_Sheet_1: -1906242280
+      Shadows_Sheet_2: -1493477783
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
